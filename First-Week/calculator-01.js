@@ -1,35 +1,15 @@
-function over(firstOperand, secondOperand){
-    return firstOperand / secondOperand
-}
+// Directly
 
-function times(firstOperand, secondOperand){
-    return firstOperand * secondOperand
-}
+var result = 0;
 
-function plus(firstOperand, secondOperand){
-    return firstOperand + secondOperand
-}
+result = 10 / 2;
+console.log(result);
 
-function minus(firstOperand, secondOperand){
-    return firstOperand - secondOperand
-}
+result = 10 * 2;
+console.log(result);
 
+result = 10 + 2;
+console.log(result);
 
-
-
-const performCalculation = { // declare object which including all operation methods
-    '/': (firstOperand, secondOperand) => firstOperand / secondOperand,
-
-    '*': (firstOperand, secondOperand) => firstOperand * secondOperand,
-
-    '+': (firstOperand, secondOperand) => firstOperand + secondOperand,
-
-    '-': (firstOperand, secondOperand) => firstOperand - secondOperand,
-
-    // '=': (firstOperand, secondOperand) => secondOperand
-};
-
-performCalculation["/"](10, 2) // 10 divide by 2 = 5
-performCalculation["*"](10, 2) // 10 times 2 = 20
-performCalculation["+"](10, 2) // 10 plus 2 = 12
-performCalculation["-"](10, 2) // 10 minus 2 = 8
+result = 10 - 2;
+console.log(result);
